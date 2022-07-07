@@ -1,0 +1,1 @@
+Profeser Luis, perdon por esta entrega no quedo como esperaba y con las funcionalidades minimas, no me quiero excusar pero tuvo un problema mi madre en bariloche y tuve que ir para alla, aca no tengo wifi ni mi pc esto fue lo mejor que pude hacer. perdon
