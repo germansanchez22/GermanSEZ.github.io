@@ -1,0 +1,207 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <title>ecommerce</title>
+
+</head>
+
+<body>
+
+    <header class="main-header">
+  
+        <div class="container container--flex">
+  
+            <div class="main-header__container">
+  
+                <h1 class="main-header__title">Turboslina</h1>
+   
+            </div>
+    
+            <div class="main-header__container">
+    
+                <span class="main-header__txt">Nuestra unica linea activa:</span><p class="main-header__txt"><i class="fa-solid fa-mobile-retro"></i> +54 1140560190</p>
+    
+            </div>
+    
+            <div class="main-header__container"">
+    
+                <input type="search" class="main-header__input" placeholder="Buscar productos"><i class="fa-solid fa-magnifying-glass-plus"></i>
+   
+                <div>
+   
+                </header>
+
+    <main class="container-fluid">
+        
+        <div class="row generalContainer">
+           
+            <div class="col-8 productsContainer">
+
+                <div class="row cards"></div>
+            </div>
+           
+            <div class="col-4 cartContainer cart">
+                <div class="row cart">
+                    <h2 class="text-center"><i class="fa-solid fa-cart-plus"></i>  Carro de compras </h2>
+                    <h3 class="text-center">Total $<span class="visualTotal">0</span></h3>
+                    <div class="row innerCart"></div>
+                    <div class="row cartBtns">
+                      <button type="button" class="btn btn-success checkout">Check out</button>
+                      <button type="button" class="btn btn-danger">Empty</button>
+
+                    </div>
+
+                  
+                </div>
+            </div>
+        
+        </div>
+  
+    
+    
+                <div class="container-slider">
+    
+                    <div class="slider" id="slider">
+    
+                        <div class="slider__section">
+    
+                            <img src="img/persona 1.jpg" alt="" class="slider__img">
+    
+                            <div class="slider__content">
+    
+                                <h2 class="slider__title">Local - Gerli</h2>
+    
+                                <p class="slider__txt">Av. Hipolito Irigoyen 3200</p>
+    
+                            </div>
+           
+                        </div>
+           
+                        <div class="slider__section">
+           
+                            <img src="img/persona 2.jpg" alt="" class="slider__img">
+           
+                            <div class="slider__content">
+           
+                                <h2 class="slider__title">Local - Lomas de Zamora</h2>
+           
+                                <p class="slider__txt">Av. Gral. Martin Rodriguez 1500</p>
+            
+                            </div>
+            
+                        </div>
+            
+                        <div class="slider__section">
+            
+                            <img src="img/persona 3.jpg" alt="" class="slider__img">
+            
+                            <div class="slider__content">
+            
+                                <h2 class="slider__title">Local - Avellaneda</h2>
+            
+                                <p class="slider__txt">Av. Bartolome Mitre 2300</p>
+                                
+                            </div>
+            
+                        </div>
+            
+                        <div class="slider__section">
+            
+                            <img src="img/persona 4.jpg" alt="" class="slider__img">
+            
+                            <div class="slider__content">
+            
+                                <h2 class="slider__title">Local - Valentin Alsina</h2>
+            
+                                <p class="slider__txt">Av. Remedios de Escalada de San Martin 1200</p>
+            
+                            </div>
+               
+                        </div>
+        
+                    </div>
+        
+                    <div class="slider__btn slider__btn--right" id="btn-right">></div>
+        
+                    <div class="slider__btn slider__btn--left" id="btn-left"><</div>
+    
+                </div>
+    
+    
+                
+    </main>
+    
+    <footer class="main-footer">
+       
+        <div class="footer__section">
+       
+            <h2 class="footer__title">Sobre Nosotros</h2>
+       
+            <p class="footer__txt">En Turboslina nos dedicamos a la venta y reparacion de turbos, contamos con 
+            sucursales en zona sur y un excelente servicio.</p>
+       
+        </div>
+       
+        <div class="footer__section">
+       
+            <h2 class="footer__title">Localizacion</h2>
+       
+            <p class="footer__txt">Ubicacion de la oficina central: Av. Remedios de Escalada de San Martin.
+           </p>
+       
+        </div>
+       
+        <div class="footer__section">
+       
+            <h2 class="footer__title">Contacto</h2>
+       
+            <p class="footer__txt"> Celular: +54 1140560190.
+            Email : turboslina@gmail.com </p>
+       
+         <div>
+    
+            <div class="footer__section">
+    
+                <h2 class="footer__title__title">Subscribite para las ofertas</h2>
+    
+                <p class="footer__txt">Subscribiendote a nuestro servicio de mailing, podras enterarte de las ultimas ofertas, noticias y actualizaciones.</p>
+    
+                <input type="email" class="footer__imput" placeholder="enter your email">
+    
+            </div>
+    
+            <p class="copy">© 2022 Lugano City. Diseñado por GermanS</p>
+       
+    </footer>
+
+
+    
+
+<script src="https://kit.fontawesome.com/d1cc448c6c.js" crossorigin="anonymous"></script> 
+
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js></script>
+
+<script src="./js/slider.js"></script>
+
+<script src="./js/index.js" type="module"></script>
+
+</body>
+
+</html>
